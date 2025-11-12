@@ -41,7 +41,7 @@ body {
   align-items: center;
 }
 .nav a {
-  color: var(--accent);
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem 0.8rem;
