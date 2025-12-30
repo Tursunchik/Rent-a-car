@@ -1,10 +1,10 @@
 :root {
-  --accent: #c9a227; /* тёмно-жёлтый */
-  --accent-light: #e6c75f; /* светлее для hover */
-  --dark: #000000; /* фон */
-  --text: #f2f2f2; /* светлый текст */
-  --muted: #b3a676; /* приглушённый золотистый */
-  --card: #111111; /* тёмные карточки */
+  --accent: #c9a227;
+  --accent-light: #e6c75f;
+  --dark: #000000;
+  --text: #f2f2f2;
+  --muted: #b3a676;
+  --card: #111111;
   --radius: 12px;
 }
 * {
@@ -94,6 +94,7 @@ body {
   background-position: center;
   color: #f2f2f2;
   position: relative;
+  height: 500px;
 }
 .hero::after {
   content: "";
@@ -300,5 +301,5 @@ body {
   width: 100%;
   height: 160px;
   object-fit: cover;
-  border-radius: 12px 12px 0 0; /* совпадает с верхней частью карточки */
+  border-radius: 12px 12px 0 0;
 }
