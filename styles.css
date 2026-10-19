@@ -303,3 +303,18 @@ body {
   object-fit: cover;
   border-radius: 12px 12px 0 0;
 }
+
+.logo {
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
+}
